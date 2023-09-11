@@ -18,7 +18,6 @@ const Table: React.FC<TableProps> = ({ data, age }) => {
           </div>
         ))}
       </div>
-      {console.log('age', age)}
       {data?.map((item, index) => (
         <div className='grid grid-cols-6 text-[#999]' key={index}>
           <div className='p-4  bg-[#1e1e1e] text-ellipsis overflow-hidden ...'>
